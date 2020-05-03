@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter, Switch } from 'react-router-dom';
+import { Rouet, withRouter, Redirect, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 
