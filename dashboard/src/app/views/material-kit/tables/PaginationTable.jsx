@@ -12,68 +12,40 @@ import {
 
 const subscribarList = [
   {
-    name: "john doe",
-    date: "18 january, 2019",
-    amount: 1000,
+    name: "John Finch",
+    date: "1 may, 2020",
+    amount: 25,
     status: "closed",
-    company: "ABC Fintech LTD."
+    company: "Zenkai Pharmacy"
+  },
+  {
+    name: " Bob Cousy",
+    date: "1 may, 2020",
+    amount: 15,
+    status: "open",
+    company: "New Vision Health Care"
   },
   {
     name: "kessy bryan",
-    date: "10 january, 2019",
-    amount: 9000,
+    date: "2 may, 2020",
+    amount: 50,
     status: "open",
-    company: "My Fintech LTD."
+    company: "WeBuild"
   },
   {
-    name: "kessy bryan",
-    date: "10 january, 2019",
-    amount: 9000,
-    status: "open",
-    company: "My Fintech LTD."
-  },
-  {
-    name: "james cassegne",
-    date: "8 january, 2019",
-    amount: 5000,
+    name: "james cassidy",
+    date: "2 may, 2020",
+    amount: 20,
     status: "closed",
-    company: "Collboy Tech LTD."
+    company: "Forvera"
   },
   {
-    name: "lucy brown",
-    date: "1 january, 2019",
-    amount: 89000,
+    name: "rosy mchale",
+    date: "2 may, 2020",
+    amount: 15,
     status: "open",
-    company: "ABC Fintech LTD."
+    company: "Daily Mart"
   },
-  {
-    name: "lucy brown",
-    date: "1 january, 2019",
-    amount: 89000,
-    status: "open",
-    company: "ABC Fintech LTD."
-  },
-  {
-    name: "lucy brown",
-    date: "1 january, 2019",
-    amount: 89000,
-    status: "open",
-    company: "ABC Fintech LTD."
-  },
-  {
-    name: "lucy brown",
-    date: "1 january, 2019",
-    amount: 89000,
-    status: "open",
-    company: "ABC Fintech LTD."
-  },
-  {
-    name: "lucy brown",
-    date: "1 january, 2019",
-    amount: 89000,
-    status: "open",
-    company: "ABC Fintech LTD."
-  }
 ];
 
 const PaginationTable = () => {

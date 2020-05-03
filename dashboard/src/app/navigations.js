@@ -98,11 +98,13 @@ export const navigations = [
     path: "/map"
   },
 
+  /*
   {
     name: "Payments",
     icon: "money_add",
     path: "/session/payments",
   },
+  */
 
   {
     name: "Sign In",

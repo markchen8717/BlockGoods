@@ -35,7 +35,7 @@ const StatCards = ({ classes }) => {
             <Icon className={classes.icon}>attach_money</Icon>
             <div className="ml-3">
               <small className="text-muted">Amount in Wallet</small>
-              <h6 className="m-0 mt-1 text-primary font-medium">$5,534.35</h6>
+              <h6 className="m-0 mt-1 text-primary font-medium">12402 UTC</h6>
             </div>
           </div>
           <Tooltip title="View Details" placement="top">

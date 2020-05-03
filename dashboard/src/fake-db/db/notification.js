@@ -11,8 +11,8 @@ const NotificationDB = {
         color: "primary"
       },
       timestamp: 1570702802573,
-      title: "New message from Devid",
-      subtitle: "Hello, Let's chit chat...",
+      title: "New message from David",
+      subtitle: "Hello, I'm selling gloves.",
       path: "chat"
     },
     {
@@ -23,8 +23,8 @@ const NotificationDB = {
         color: "error"
       },
       timestamp: 1570702702573,
-      title: "Server overloaded",
-      subtitle: "Traffice reached 2M",
+      title: "Orders Have Arrived",
+      subtitle: "Your past 5 orders have been delivered",
       path: "page-layouts/user-profile"
     },
     {
@@ -35,8 +35,8 @@ const NotificationDB = {
         color: "primary"
       },
       timestamp: 1570502502573,
-      title: "New message from Goustove",
-      subtitle: "Hello, Let's chit chat...",
+      title: "New message from Goustave",
+      subtitle: "Hello, are you interested in Purell?",
       path: "chat"
     }
   ]
