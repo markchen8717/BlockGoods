@@ -7,7 +7,7 @@ class JwtAuthService {
   user = {
     userId: "1",
     role: 'ADMIN',
-    displayName: "Mark Chen",
+    displayName: "Jeff Chan",
     email: "temp.com",
     photoURL: "/assets/images/mark.jpg",
     age: 25,
