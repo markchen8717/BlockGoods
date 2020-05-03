@@ -18,7 +18,7 @@ const AppTable = () => {
       </div>
       <center>
       <Balance
-        balance = {'12402'}
+        balance = {'10402'}
         currency = {'UTC'}
         image = {QR}
         >

@@ -51,6 +51,13 @@ const subscribarList = [
     amount: 30,
     status: "open",
     company: "Lowes"
+  },
+  {
+    name: "Mark Rowen",
+    date: "3 may, 2020",
+    amount: 50,
+    status: "open",
+    company: "Walmart"
   }
 ];
 
