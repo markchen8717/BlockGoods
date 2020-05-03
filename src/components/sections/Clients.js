@@ -52,38 +52,38 @@ class Clients extends React.Component {
             <ul className="list-reset">
               <li className="reveal-from-top">
                 <Image
-                  src={require('./../../assets/images/clients-01.svg')}
+                  src={require('./../../assets/images/clients-01.png')}
                   alt="Client 01"
                   width={124}
                   height={24} />
               </li>
               <li className="reveal-from-bottom" data-reveal-delay="150">
                 <Image
-                  src={require('./../../assets/images/clients-02.svg')}
+                  src={require('./../../assets/images/clients-02.png')}
                   alt="Client 02"
-                  width={83}
-                  height={30} />
+                  width={80}
+                  height={27} />
               </li>
               <li className="reveal-from-top" data-reveal-delay="300">
                 <Image
-                  src={require('./../../assets/images/clients-03.svg')}
+                  src={require('./../../assets/images/clients-03.png')}
                   alt="Client 03"
-                  width={125}
-                  height={39} />
+                  width={115}
+                  height={29} />
               </li>
               <li className="reveal-from-bottom" data-reveal-delay="450">
                 <Image
-                  src={require('./../../assets/images/clients-04.svg')}
+                  src={require('./../../assets/images/clients-04.png')}
                   alt="Client 04"
-                  width={150}
-                  height={31} />
+                  width={100}
+                  height={30} />
               </li>
               <li className="reveal-from-top" data-reveal-delay="600">
                 <Image
-                  src={require('./../../assets/images/clients-05.svg')}
+                  src={require('./../../assets/images/clients-05.png')}
                   alt="Client 05"
-                  width={113}
-                  height={30} />
+                  width={80}
+                  height={23} />
               </li>
             </ul>
           </div>

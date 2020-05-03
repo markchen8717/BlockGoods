@@ -72,13 +72,13 @@ class HeroSplit extends React.Component {
               <div className="split-item" style={inlineStyle()}>
                 <div className="hero-content split-item-content center-content-mobile">
                   <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="150">
-                    Delivering Essentials To Those In Need
+                    BlockGoods | Delivering Essentials To Those In Need
                   </h1>
                   <p className="mt-0 mb-32 reveal-from-bottom" data-reveal-delay="300">
-                  BlockGoods leverages blockchain technology to help businesses distribute covid related goods to consumers in need.
+                  Leveraging blockchain technology to help businesses distribute covid related goods to consumers in need.
                   </p>
                   <div className="reveal-from-bottom" data-reveal-delay="450">
-                    <Button tag="a" color="primary" href="/Home" wideMobile>
+                    <Button tag="a" color="primary" href="/secondary" wideMobile>
                       Learn More
                     </Button>
                   </div>

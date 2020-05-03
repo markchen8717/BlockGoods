@@ -49,8 +49,8 @@ class Team extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Our Team.',
-      paragraph: 'Meet The Team Of Visionaries Behind BlockGoods.'
+      title: 'Meet the team.',
+      paragraph: 'Meet The Team Behind BlockGoods.'
     };
 
     return (
@@ -68,7 +68,7 @@ class Team extends React.Component {
                   <div className="team-item-header">
                     <div className="team-item-image mb-24">
                       <Image
-                        src={require('./../../assets/images/mark.jpg')}
+                        src={require('./../../assets/images/team-member-01.jpg')}
                         alt="Team member 01"
                         width={180}
                         height={180} />
@@ -93,7 +93,7 @@ class Team extends React.Component {
                   <div className="team-item-header">
                     <div className="team-item-image mb-24">
                       <Image
-                        src={require('./../../assets/images/eric.jpg')}
+                        src={require('./../../assets/images/team-member-02.jpg')}
                         alt="Team member 02"
                         width={180}
                         height={180} />
@@ -118,7 +118,7 @@ class Team extends React.Component {
                   <div className="team-item-header">
                     <div className="team-item-image mb-24">
                       <Image
-                        src={require('./../../assets/images/ben.jpg')}
+                        src={require('./../../assets/images/team-member-03.jpg')}
                         alt="Team member 03"
                         width={180}
                         height={180} />
@@ -143,7 +143,7 @@ class Team extends React.Component {
                   <div className="team-item-header">
                     <div className="team-item-image mb-24">
                       <Image
-                        src={require('./../../assets/images/krishdev.jpg')}
+                        src={require('./../../assets/images/team-member-04.jpg')}
                         alt="Team member 04"
                         width={180}
                         height={180} />

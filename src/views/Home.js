@@ -30,8 +30,8 @@ class Home extends React.Component {
   render() {
 
     const genericSection01Header = {
-      title: 'Built exclusively for you',
-      paragraph: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint — occaecat cupidatat non proident, sunt in culpa qui.'
+      title: 'Built Exclusively For You',
+      paragraph: 'We have developed an easy, quick, and efficient to use platform to facilitate the distribution of essential goods directly to the people who need it the most.'
     }
 
     return (
@@ -48,10 +48,10 @@ class Home extends React.Component {
               onClick={this.openModal}
             >
               <Image
-                src={require('./../assets/images/video-placeholder.svg')}
+                src={require('./../assets/images/blockchain.png')}
                 alt="Video"
-                width={712}
-                height={400} />
+                width={512}
+                height={300} />
             </a>
           </div>
           <Modal

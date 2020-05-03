@@ -48,8 +48,8 @@ class Testimonial extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Don\'t take our word for it',
-      paragraph: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint — occaecat cupidatat non proident, sunt in culpa qui.'
+      title: 'Words From Our Co-Founders',
+      paragraph: ''
     };
 
     return (
@@ -66,14 +66,14 @@ class Testimonial extends React.Component {
                 <div className="tiles-item-inner">
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                      — BlockGoods users can rest assured that they can distribute and obtain goods at very affordable prices -- all from the comfort of their homes and without having to sacrifice their own personal well-being.
                       </p>
                   </div>
                   <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                    <span className="testimonial-item-name text-color-high">Roman Level</span>
+                    <span className="testimonial-item-name text-color-high">Eric Liu</span>
                     <span className="text-color-low"> / </span>
                     <span className="testimonial-item-link">
-                      <a href="#0">AppName</a>
+                      <a href="#0">Co-Founder</a>
                     </span>
                   </div>
                 </div>
@@ -83,14 +83,14 @@ class Testimonial extends React.Component {
                 <div className="tiles-item-inner">
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                      — During these uncertain times, our application provides an easy to use platform for governments working alongside with its people to combat COVID-19.
                       </p>
                   </div>
                   <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                    <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
+                    <span className="testimonial-item-name text-color-high">Mark Chen</span>
                     <span className="text-color-low"> / </span>
                     <span className="testimonial-item-link">
-                      <a href="#0">AppName</a>
+                      <a href="#0">Co-Founder</a>
                     </span>
                   </div>
                 </div>
@@ -100,19 +100,35 @@ class Testimonial extends React.Component {
                 <div className="tiles-item-inner">
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                      — Our app can be easily integrated in places all around the world to flatten the curve and put an end to this concerning pandemic. Whether it’s average consumers or local businesses, our app is there to provide a more socially-distant experience when purchasing essentials like medicine, toiletries, hygienic products, and so on.
                       </p>
                   </div>
                   <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                    <span className="testimonial-item-name text-color-high">Ben Stafford</span>
+                    <span className="testimonial-item-name text-color-high">Krishdev Sutar</span>
                     <span className="text-color-low"> / </span>
                     <span className="testimonial-item-link">
-                      <a href="#0">AppName</a>
+                      <a href="#0">Co-Founder</a>
                     </span>
                   </div>
                 </div>
               </div>
 
+              <div className="tiles-item reveal-from-left" data-reveal-delay="200">
+                <div className="tiles-item-inner">
+                  <div className="testimonial-item-content">
+                    <p className="text-sm mb-0">
+                      — Blockgoods can be continued to be used as a trading platform for people willing to donate their unwanted materials for the greater good of humanity after the pandemic ends.
+                      </p>
+                  </div>
+                  <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                    <span className="testimonial-item-name text-color-high">Ben Lin</span>
+                    <span className="text-color-low"> / </span>
+                    <span className="testimonial-item-link">
+                      <a href="#0">Co-Founder</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

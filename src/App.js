@@ -11,6 +11,8 @@ import LayoutSignin from './layouts/LayoutSignin';
 // Views 
 import Home from './views/Home';
 import Secondary from './views/Secondary';
+import FAQ from './views/FAQ';
+import Contact from './views/Contact';
 import Login from './views/Login';
 import Signup from './views/Signup';
 
@@ -36,6 +38,8 @@ class App extends React.Component {
           <Switch>
             <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
             <AppRoute exact path="/secondary" component={Secondary} layout={LayoutAlternative} />
+            <AppRoute exact path="/faq" component={FAQ} layout={LayoutAlternative} />
+            <AppRoute exact path="/contact" component={Contact} layout={LayoutAlternative} />
             <AppRoute exact path="/login" component={Login} layout={LayoutSignin} />
             <AppRoute exact path="/signup" component={Signup} layout={LayoutSignin} />
           </Switch>

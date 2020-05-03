@@ -54,8 +54,8 @@ class FeaturesSplit extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Features - Lorem ipsum is placeholder text.',
-      paragraph: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint — occaecat cupidatat non proident, sunt in culpa qui.'
+      title: 'Features',
+      paragraph: 'Discover All That BlockGoods Has To Offer.'
     };
 
     return (
@@ -67,14 +67,13 @@ class FeaturesSplit extends React.Component {
           <div className={innerClasses}>
             <SectionHeader data={sectionHeader} className="center-content" />
             <div className={splitClasses}>
-
               <div className="split-item">
                 <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                   <h3 className="mt-0 mb-12">
-                    Data-driven insights
+                    Sign In Effortlessly
                   </h3>
                   <p className="m-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    All You Need Is A Blockstack ID in order to enjoy all of our features including receiving coins, ordering goods, and interacting with businesses you love.
                   </p>
                 </div>
                 <div className={
@@ -94,10 +93,10 @@ class FeaturesSplit extends React.Component {
               <div className="split-item">
                 <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                   <h3 className="mt-0 mb-12">
-                    Data-driven insights
+                    Pay Securely Using QR Codes
                   </h3>
                   <p className="m-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    All of our payments are processed using blockchain technology via Blockstack. This means that all you have to do is scan a QR code to start ordering goods.
                   </p>
                 </div>
                 <div className={
@@ -117,10 +116,10 @@ class FeaturesSplit extends React.Component {
               <div className="split-item">
                 <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                   <h3 className="mt-0 mb-12">
-                    Data-driven insights
+                    Receive Coins Each Month
                   </h3>
                   <p className="m-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    To make high in-demand goods more accessible for all, BlockGoods users will receive a predetermined amount of coins at the start of each month to make ordering goods more affordable.
                   </p>
                 </div>
                 <div className={

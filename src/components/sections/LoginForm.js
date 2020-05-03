@@ -200,7 +200,7 @@ class LoginForm extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Welcome. We exist to distribute essential covid goods to those in need.',
+      title: 'Login Directly Using Your Blockstack ID.',
     };
 
     const { userSession, currentUser, superhero, crush, gaiaUser } = this.state;

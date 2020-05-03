@@ -42,7 +42,7 @@ class Secondary extends React.Component {
     }
 
     const genericSection03Header = {
-      title: 'Input forms - Lorem ipsum is placeholder text commonly used.'
+      title: 'Subscribe To Our Mailing List/Contact Us!'
     }   
 
     const genericSection04Header = {
@@ -51,8 +51,51 @@ class Secondary extends React.Component {
 
     return (
       <React.Fragment>
-        <Team topDivider />
-        <FeaturesSplit invertMobile topDivider imageFill />
+        <GenericSection topDivider>
+          <div className="container-xs">
+            <SectionHeader data={genericSection03Header} className="center-content" />
+            <form style={formStyle}>
+              <div className="mb-24">
+                <Input
+                  type="Full Name"
+                  label="Name"
+                  placeholder="Full Name"
+                  formGroup="desktop"
+                  labelHidden>
+                </Input>
+              </div>
+              <div className="mb-24">
+                <Input
+                  type="email"
+                  label="Email"
+                  placeholder="Your Best Email Address"
+                  formGroup="desktop"
+                  labelHidden>
+                </Input>
+              </div>              
+              <div className="mb-24">
+                <Input
+                  type="email"
+                  label="Comment"
+                  placeholder="Leave A Comment"
+                  formGroup="desktop"
+                  labelHidden>
+                </Input>
+              </div>
+              <div className="mb-24">
+                <Input
+                  type="email"
+                  label="Access"
+                  placeholder="Want Early Access? (Y/N)"
+                  formGroup="desktop"
+                  labelHidden>
+                  
+                  <Button color="primary">Early access</Button>
+                </Input>
+              </div>
+            </form>
+          </div>
+        </GenericSection>
       </React.Fragment>
     );
   }

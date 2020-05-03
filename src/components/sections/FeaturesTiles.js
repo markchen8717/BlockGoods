@@ -49,8 +49,8 @@ class FeaturesTiles extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Build up the whole picture',
-      paragraph: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint — occaecat cupidatat non proident, sunt in culpa qui.'
+      title: 'Helping Business Owners and Consumers',
+      paragraph: 'With the help and support from governments and businesses, BlockGoods can save lots of lives during the current pandemic crisis, while easing the burdens on local institutions and hospitals.'
     };
 
     return (
@@ -76,10 +76,10 @@ class FeaturesTiles extends React.Component {
                   </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-8">
-                      Generate Leads
+                      Sign In Effortlessly
                     </h4>
                     <p className="m-0 text-sm">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                      All You Need Is A Blockstack ID in order to enjoy all of our features including receiving coins, ordering goods, and interacting with businesses you love.
                     </p>
                   </div>
                 </div>
@@ -98,10 +98,10 @@ class FeaturesTiles extends React.Component {
                   </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-8">
-                      Generate Leads
+                      Pay Securely Using QR Codes
                     </h4>
                     <p className="m-0 text-sm">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                     All of our payments are processed using blockchain technology via Blockstack. This means that all you have to do is scan a QR code to start ordering goods.
                     </p>
                   </div>
                 </div>
@@ -120,10 +120,10 @@ class FeaturesTiles extends React.Component {
                   </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-8">
-                      Generate Leads
+                      Receive Coins Each Month
                     </h4>
                     <p className="m-0 text-sm">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                      To make high in-demand goods more accessible for all, BlockGoods users will receive a predetermined amount of coins at the start of each month to make ordering goods more affordable.
                     </p>
                   </div>
                 </div>
@@ -142,32 +142,10 @@ class FeaturesTiles extends React.Component {
                   </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-8">
-                      Generate Leads
+                      Partnering With Business Owners
                     </h4>
                     <p className="m-0 text-sm">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="tiles-item reveal-from-right">
-                <div className="tiles-item-inner">
-                  <div className="features-tiles-item-header">
-                    <div className="features-tiles-item-image mb-16">
-                      <Image
-                        src={require('./../../assets/images/feature-tile-icon-05.svg')}
-                        alt="Features tile icon 05"
-                        width={72}
-                        height={72} />
-                    </div>
-                  </div>
-                  <div className="features-tiles-item-content">
-                    <h4 className="mt-0 mb-8">
-                      Generate Leads
-                    </h4>
-                    <p className="m-0 text-sm">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                      Businesses and sellers can also start distributing their goods to consumers on our platform. Business owners can enjoy incentives from the government for allowing everyone to have equal access to essential materials.
                     </p>
                   </div>
                 </div>
@@ -186,10 +164,10 @@ class FeaturesTiles extends React.Component {
                   </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-8">
-                      Generate Leads
+                      Flattening The Curve
                     </h4>
                     <p className="m-0 text-sm">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                      All BlockGoods users are helping to flatten the curve by practicing social distancing measures. Order and sell goods at the comfort of your own homes!
                     </p>
                   </div>
                 </div>

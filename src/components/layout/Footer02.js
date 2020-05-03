@@ -46,39 +46,39 @@ class Footer extends React.Component {
               <div className="footer-blocks">
                 <div className="footer-block">
                   <Logo className="mb-16" />
-                  <div className="footer-copyright">&copy; 2019 Neon, all rights reserved</div>
+                  <div className="footer-copyright">&copy; 2020 BlockGoods, All Rights Reserved</div>
                 </div>
                 <div className="footer-block">
                   <div className="footer-block-title">Company</div>
                   <ul className="list-reset mb-0">
                     <li>
-                      <a href="https://cruip.com/">Dummy text used</a>
+                      <a href="#">Why BlockGoods?</a>
                     </li>
                     <li>
-                      <a href="https://cruip.com/">The purpose of lorem</a>
+                      <a href="#">The Goal Of BlockGoods</a>
                     </li>
                     <li>
-                      <a href="https://cruip.com/">Filler text can be very useful</a>
+                      <a href="#">See Our Technology</a>
                     </li>
                     <li>
-                      <a href="https://cruip.com/">Be on design</a>
+                      <a href="#">Future Careers</a>
                     </li>
                   </ul>
                 </div>
                 <div className="footer-block">
-                  <div className="footer-block-title">Uses cases</div>
+                  <div className="footer-block-title">Case Studies</div>
                   <ul className="list-reset mb-0">
                     <li>
-                      <a href="https://cruip.com/">Consectetur adipiscing</a>
+                      <a href="#">Why Blockchain Technology</a>
                     </li>
                     <li>
-                      <a href="https://cruip.com/">Lorem Ipsum is place</a>
+                      <a href="#">How Payment Works</a>
                     </li>
                     <li>
-                      <a href="https://cruip.com/">Excepteur sint</a>
+                      <a href="#">Seeing Your Orders</a>
                     </li>
                     <li>
-                      <a href="https://cruip.com/">Occaecat cupidatat</a>
+                      <a href="#">The Incentives</a>
                     </li>
                   </ul>
                 </div>
@@ -86,16 +86,16 @@ class Footer extends React.Component {
                   <div className="footer-block-title">Docs</div>
                   <ul className="list-reset mb-0">
                     <li>
-                      <a href="https://cruip.com/">The purpose of lorem</a>
+                      <a href="#">Our Inspiration</a>
                     </li>
                     <li>
-                      <a href="https://cruip.com/">Dummy text used</a>
+                      <a href="#">Blockstack API</a>
                     </li>
                     <li>
-                      <a href="https://cruip.com/">Excepteur sint</a>
+                      <a href="#">BlockGoods API</a>
                     </li>
                     <li>
-                      <a href="https://cruip.com/">Occaecat cupidatat</a>
+                      <a href="#">What Is Next For BlockGoods</a>
                     </li>
                   </ul>
                 </div>

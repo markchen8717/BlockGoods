@@ -63,7 +63,7 @@ class SignupForm extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Welcome. We exist to distribute essential covid goods to those in need.',
+      title: 'Sign Up To Enjoy All Of Our Benefits.',
     };
 
     return (

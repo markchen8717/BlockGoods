@@ -2,6 +2,8 @@ import React from "react";
 import SimpleTable from "./SimpleTable";
 import PaginationTable from "./PaginationTable";
 import { Breadcrumb, SimpleCard } from "matx";
+import Balance from "./Balance"
+import QR from "./qr_code.png"
 
 const AppTable = () => {
   return (
@@ -14,6 +16,16 @@ const AppTable = () => {
           ]}
         />
       </div>
+      <center>
+      <Balance
+        balance = {'12402'}
+        currency = {'UTC'}
+        image = {QR}
+        >
+
+      </Balance>
+      </center>
+
       <SimpleCard title="Transactions History">
         <SimpleTable />
       </SimpleCard>
@@ -24,5 +36,6 @@ const AppTable = () => {
     </div>
   );
 };
+
 
 export default AppTable;
