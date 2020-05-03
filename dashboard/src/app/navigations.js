@@ -109,7 +109,8 @@ export const navigations = [
     icon: "person",
     path: "/session/signin"
     
-    /*children: [
+    /*
+    children: [
       {
         name: "Sign in",
         iconText: "SI",
@@ -130,7 +131,8 @@ export const navigations = [
         iconText: "404",
         path: "/session/404"
       }
-    ]*/
+    ]
+    */
   },
 
   {
@@ -212,5 +214,5 @@ export const navigations = [
       }
     ]
   },
-    */
+  */
 ];

@@ -1,8 +1,19 @@
 import React, { useState } from 'react';
 
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
-function MapPage(props) {
 
+const mapStyles = {
+  width: '80vw',
+  height: '80vh',
+};
+
+const titleStyle = {
+  textAlign: 'center',
+  fontWeight: 'bold',
+  fontSize: 20
+}
+
+function MapPage(props) {
 
   const onMarkerClick = (prop, marker, e) => {
     // console.log(activeMarker,showingInfoWindow,selectedPlace);
@@ -15,21 +26,21 @@ function MapPage(props) {
     setShowingInfoWindow(false);
   }
 
-
   const [activeMarker, setActiveMarker] = useState({});
   const [showingInfoWindow, setShowingInfoWindow] = useState(false);
   return (
 
     <div className="MapPage">
       <div>
-        <p>
-          hello
+        <p style={titleStyle}>
+          Nearby Businesses Selling Essential Goods
         </p>
       </div>
       <div>
         <Map google={props.google}
           onClick={onMapClicked}
           zoom={13.5}
+          style={mapStyles}
           initialCenter={{
             lat: 43.6529,
             lng: -79.3832
@@ -46,7 +57,7 @@ function MapPage(props) {
             onClick={onMarkerClick}
             title={'New Vision Health Clinic'}
             position={{ lat: 43.6673, lng: -79.4002 }}
-            description={'We believe that every patient is eequal and we strive to serve our patients to the best of our abilities'}
+            description={'We believe that every patient is equal and we strive to serve our patients to the best of our abilities'}
           />
 
           <Marker
